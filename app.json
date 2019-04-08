@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/todolist/todolist",
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Todos",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/todolist/todolist",
+      "text": "Todos",
+      "iconPath": "/images/todos.png",
+      "selectedIconPath": "/images/todos-active.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "log",
+      "iconPath": "/images/logs.png",
+      "selectedIconPath": "/images/logs-active.png"
+    }]
+  }
+}
