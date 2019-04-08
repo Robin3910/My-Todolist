@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='record-list' wx:if="{{ record.length }}">
+    <view class='item' wx:key="{{ index }}" wx:for="{{ record }}">
+    <view class='first-line'>
+      <text class='title'>Name: {{item.title}}</text>
+      <text class='type'>{{ item.type }}</text>
+    </view>
+      <view class='timestamp'> {{ item.date }} </view>
+    </view>
+  </view>
+</view>

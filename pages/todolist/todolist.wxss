@@ -1,0 +1,77 @@
+.header{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 25rpx;
+  border: 1px solid #eee;
+  margin: 30rpx 0;
+  box-shadow: 0 0 5rpx #eee;
+  border-radius: 10rpx;
+  width: 600rpx;
+}
+.header image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.header input{
+  flex: 1;
+  font-size: 28rpx;
+}
+.empty{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 60rpx;
+  color:#444;
+  margin: 200rpx 50rpx 50rpx;
+}
+.content{
+  font-size: 40rpx;
+  color:#444;
+
+}
+.todo-item{
+  width: 600rpx;
+  border: 1px solid #eee;
+  display: flex;
+  flex-flow: column;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx #eee;
+  
+}
+.todo-item .item-completed{
+  text-decoration: line-through;
+  color: #888;
+}
+.todo-content{
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.todo-content text{
+  font-size: 30rpx;
+  color: #444;
+  margin-left: 20rpx;
+}
+.remove{
+  position: absolute;
+  right: 10rpx;
+}
+.info{
+  margin:20rpx 0;
+  width: 600rpx;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25rpx;
+  color: #444;
+}
